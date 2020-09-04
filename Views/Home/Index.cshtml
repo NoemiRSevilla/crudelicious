@@ -1,0 +1,24 @@
+    @using crudelicious.Models
+    @model List<Dish>
+    
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <h1 class="white mr-auto text col">Add a New Dish!</h1>
+</nav>
+
+<div class="container moveit">
+    <div class="container box">
+        <div class="row">
+            <p class="col">Check out some recent dishes!</p>
+            <a href="/new" class="btn btn-info">Add a Dish</a>
+        </div>
+    </div>
+    @foreach (var d in @Model)
+    {
+        <h6><a href="/@d.DishId">@d.Name</a> by @d.Chef</h6>
+    }
+</body>
+</div>
+

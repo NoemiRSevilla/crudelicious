@@ -1,0 +1,25 @@
+*{
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border-bottom: 2px solid black;
+}
+
+.white{
+    color: white;
+    margin-left: 35%;
+}
+
+.moveit{
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+.red{
+    color: red;
+}

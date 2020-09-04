@@ -1,0 +1,24 @@
+@using crudelicious.Models
+@model Dish
+
+<link rel="stylesheet" href="~/css/site.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <h1 class="white mr-auto text">Welcome to CRUDelicious</h1>
+    <a href="/" class="btn btn-info">Home</a>
+</nav>
+<div class="container">
+    <div class="container border">
+        <h1 class="text-center">@Model.Name</h1>
+        <h6 class="text-center">@Model.Chef</h6>
+    </div>
+    <p class="row">@Model.Description</p>
+    <h6 class="row"><b>Calories:</b> @Model.Calories</h6>
+    <h6 class="row"><b>Tastiness:</b> @Model.Tastiness</h6>
+</div>
+<div class="row">
+    <a href="delete/@Model.DishId" class="btn btn-danger">Delete</a>
+    <a href="edit/@Model.DishId" class="btn btn-warning">Edit</a>
+</div>
+</body>

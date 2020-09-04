@@ -1,0 +1,45 @@
+{
+  "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/crudelicious.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "crudelicious",
+  "Documents": [
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/Views/Home/Edit.cshtml",
+      "TargetPath": "Views\\Home\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/Views/Home/New.cshtml",
+      "TargetPath": "Views\\Home\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/Views/Home/Show.cshtml",
+      "TargetPath": "Views\\Home\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ORMs/crudelicious/crudelicious/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
